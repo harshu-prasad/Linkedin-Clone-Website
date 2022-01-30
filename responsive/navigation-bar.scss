@@ -1,0 +1,24 @@
+@media only screen and (max-width: 970px) {
+    .right-side{
+        margin-right: 1vw;
+    }
+}
+
+@media only screen and (max-width: 818px) {
+    .search-input{
+        display: none;
+    }
+
+    .left-side{
+        margin-left: 1rem;
+    }
+
+    #search-icon-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 636px) {}
