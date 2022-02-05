@@ -1,4 +1,7 @@
 @media only screen and (max-width: 970px) {
+    .navigation-bar{
+        max-width: 100vw;
+    }
     .right-side{
         margin-right: 1vw;
     }
@@ -21,4 +24,34 @@
     }
 }
 
-@media only screen and (max-width: 636px) {}
+@media only screen and (max-width: 636px) {
+    .navigation-bar{
+        flex-direction: column;
+    }
+
+    .left-side{
+        align-self: flex-start;
+    }
+
+    .right-side{
+        flex-direction: column;
+    }
+
+    .h-nav-resp{
+        height: 26vh;
+    }
+
+    .v-nav-resp{
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .right-side > * {
+        padding-top: 1.2vh;
+        padding-bottom: 1.2vh;
+    }
+
+    .hamburger-div{
+        display: initial;
+    }
+}

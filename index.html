@@ -9,18 +9,24 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/navigation-bar.css">
     <link rel="stylesheet" href="responsive/navigation-bar.css">
+    <link rel="stylesheet" href="css/main-page.css">
 </head>
 <body>
-    <nav class="navigation-bar">
+    <nav class="navigation-bar h-nav-resp">
         <div class="left-side">
             <img src="img/linkedin.png" class="navbar-logo">
             <input type="text" class="search-input" placeholder="Search">
             <div class="navbar-link-div disp-none" id="search-icon-div">
-                <img src="img/navbar-img/search.png" class="navbar-link-img" alt="">
+                <img src="img/navbar-img/search.png" class="navbar-link-img search-icon" alt="">
                 <span class="link-text">Search</span>
             </div>            
         </div>
-        <div class="right-side">
+
+        <div class="hamburger-div">
+            <img src="img/navbar-img/hamburger.png" class="hamburger-img">
+        </div>
+
+        <div class="right-side v-nav-resp">
             <div class="navbar-link-div">
                 <img src="img/navbar-img/home.png" alt="" class="navbar-link-img">
                 <span class="link-text">Home</span>
@@ -51,5 +57,20 @@
             </div>
         </div>
     </nav>
+
+    <div class="main-content">
+        <div class="profile-div">
+                <div class="banner"></div>
+                <div class="user-info">
+                    <h3 class="userName">Random User</h3>
+                    <span class="user-job">Full Stack Web Developer</span>
+                </div>
+                <div class="connections-div"></div>
+        </div>
+        <div class="feed-div"></div>
+        <div class="promo-news-div"></div>
+    </div>
+
 </body>
+<script src="js/responsive-navigation-bar.js"></script>
 </html>

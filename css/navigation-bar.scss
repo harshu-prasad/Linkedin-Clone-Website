@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&display=swap');
+
 .navigation-bar{
     background-color: white;
     display: flex;
@@ -53,6 +55,7 @@
     cursor: pointer;
     align-items: center;
     justify-content: center;
+    gap: 1vh;
 }
 
 .navbar-link-img{
@@ -61,13 +64,23 @@
 }
 
 .link-text{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     white-space: nowrap;
-}
-
-.large-search-input-width{
-    width: 80vw;
 }
 
 .disp-none{
     display: none;
+}
+
+.hamburger-div{
+    align-self: flex-end;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    display: none;
+}
+
+.hamburger-img{
+    height: 34px;
+    width: 45px;
 }
